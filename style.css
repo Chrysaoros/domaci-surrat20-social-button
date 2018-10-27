@@ -1,0 +1,70 @@
+a {
+    text-decoration: none;
+}
+
+span {
+    visibility: hidden;
+}
+
+.drustvene-container {
+    display: flex;
+    width: 338px;
+    overflow: hidden;
+    border: 1px solid #111;
+    border-radius: 4px;
+    /* background-image: url("machu-picchu.jpg");
+    background-size: cover; contain
+    background-repeat: no-repeat;
+    height: 100vh; */
+}
+
+.social-button {
+    position: relative;
+    display: flex;
+    width: 113px;
+    height: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: width .3s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 3px rgba(0,0,0);
+}
+
+.poziv {
+    color: white;
+    display: flex;
+
+}
+
+.social-button:hover {
+    width: 321px;
+    background-position: left;
+}
+
+.social-button.twitter:hover {
+    background-position: right;
+}
+
+.social-button:hover span {
+    visibility: visible;
+    text-align: right;
+    /* vertical-align: middle;
+    left: initial;
+    right: 64px; */
+}
+
+.twitter {
+    background-color: #1da1f2;
+    background-image: url(https://2.bp.blogspot.com/-x299px_6YPc/WRMQ7LxUvSI/AAAAAAAAG7c/OAzQ4UandOY0eXQfYneIobLZMWLyP2HFwCLcB/s64-e7/twitter.png);
+}
+
+.facebook {
+    background-color: #3b5998;
+    background-image: url(https://2.bp.blogspot.com/-1DhVd_Cdeuc/WRMQ7OxDRHI/AAAAAAAAG7k/NfOO0rTn-b0TykmKn6hjfmBUq1nggeX7QCLcB/s64-e7/facebook.png)
+}
+
+.discord {
+    background-color: #7289da;
+    background-image: url(https://1.bp.blogspot.com/--LOUx8H9X0I/WRMQ7KVlEYI/AAAAAAAAG7g/4p9Yh7GqAocpenEHAPOH56BSAxz1vElXQCLcB/s64-e7/discord.png)
+}   
